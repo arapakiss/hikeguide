@@ -1,6 +1,6 @@
 # Miscellaneous
 *.class
-*.log
+*.loggit remote -v
 *.pyc
 *.swp
 .DS_Store
