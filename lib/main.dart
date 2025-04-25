@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:hikeguide/test/theme_showcase.dart';
+
 void main() {
-  runApp(const MyApp());
+   runApp(const ThemeShowcaseApp());
 }
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
