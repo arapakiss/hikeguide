@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'widgets/login_form.dart';
-import 'widgets/login_header.dart';
-import 'widgets/social_login_buttons.dart';
-import 'widgets/login_footer.dart'; // ✅ νέο import
+import 'widgets/register_form.dart';
+import 'widgets/register_header.dart';
+import 'widgets/register_footer.dart';
+import 'package:hikeguide/core/presentation/screens/login/widgets/social_login_buttons.dart'; // import από login
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class RegisterScreen extends StatelessWidget {
+  const RegisterScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,17 +13,17 @@ class LoginScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: const [
-            LoginHeader(),
+            RegisterHeader(),
             Expanded(
               child: SingleChildScrollView(
                 padding: EdgeInsets.symmetric(horizontal: 24),
                 child: Column(
                   children: [
-                    LoginForm(),
+                    RegisterForm(),
                     SizedBox(height: 32),
-                    SocialLoginButtons(),
+                    SocialLoginButtons(),   // ✅ Προστέθηκαν τα κουμπιά Google / Apple
                     SizedBox(height: 32),
-                    LoginFooter(), // ✅ footer μετά τα social
+                    RegisterFooter(),
                   ],
                 ),
               ),

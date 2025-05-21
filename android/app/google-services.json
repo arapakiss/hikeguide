@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "275326735244",
+    "project_id": "e4route",
+    "storage_bucket": "e4route.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275326735244:android:5fa5dcd8a442b967033ca9",
+        "android_client_info": {
+          "package_name": "com.winconsulting.d4route"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275326735244-0jt5fk8180no539nn96h303i6nsfj3su.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.winconsulting.d4route",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "275326735244-emapkgie2pluncu1fqiqup7gq7ick2km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrHJ3RioKHfQLnN0PZsa07PF_Vp-lRFk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275326735244-emapkgie2pluncu1fqiqup7gq7ick2km.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "275326735244-pvo348uqj6i5p4t9jacj64e5cpp1lajo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.winconsulting.d4route"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275326735244:android:cec825e5748d96cd033ca9",
+        "android_client_info": {
+          "package_name": "com.winconsulting.hikeguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275326735244-emapkgie2pluncu1fqiqup7gq7ick2km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrHJ3RioKHfQLnN0PZsa07PF_Vp-lRFk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275326735244-emapkgie2pluncu1fqiqup7gq7ick2km.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "275326735244-pvo348uqj6i5p4t9jacj64e5cpp1lajo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.winconsulting.d4route"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

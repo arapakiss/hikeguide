@@ -4,7 +4,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:hikeguide/firebase_options.dart';
 import 'package:hikeguide/services/user_model.dart';
 import 'package:hikeguide/services/auth_local_storage.dart';
-import 'package:hikeguide/core/presentation/screens/home/home_screen.dart';
+import 'package:hikeguide/test/mock_auth_test_screen.dart'; // σωστό import!
 
 Future<Widget> bootstrap() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,11 +25,12 @@ Future<Widget> bootstrap() async {
     print('🔴 No local user found.');
   }
 
+  // ✅ Εδώ επιστρέφουμε MaterialApp
   return MaterialApp(
-    title: 'HikeGuide',
+    title: 'HikeGuide Test',
     debugShowCheckedModeBanner: false,
-    theme: ThemeData.light(), // ή custom buildTheme()
+    theme: ThemeData.light(),
     darkTheme: ThemeData.dark(),
-    home: const HomeScreen(),
+    home: const MockAuthTestScreen(),
   );
 }
